@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Roboto&display=swap');
+
+.menu1{
+    display:flex;
+    justify-content: space-around;
+    width: 900px;
+    border: 2px solid rgb(213, 213, 213);
+    box-shadow: 2px 2px 3px 3px rgb(189, 189, 189);
+    padding:7px 15px 7px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text:#000000;
+    background: #eff1f3;
+    border-radius: 3px;
+
+}
+
+.link1{
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.link2{
+    display: inline;
+    margin-right: 15px;
+}
+
+.Company{
+    /* text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #05A88D;
+    font-weight: 700; */
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+.Pressroom{
+    list-style-type: none;
+    margin-right: 20px; 
+    margin-top:  5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000; 
+}
+a:hover{
+    color:#05a88d;
+}
+
+button{
+    border:0;
+    border-radius: 3px;
+    padding: 3px 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #eff1f3;
+
+}
+button:hover{
+    color: #05a88d;
+    background-color: #eef7f6;
+    cursor: pointer;
+    border:1px solid #05A88D;
+}
+
+img{
+    max-width: 8em;
+}
